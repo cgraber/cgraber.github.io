@@ -40,7 +40,7 @@
 }
 
 .archive__item-title {
-  margin-bottom: 0.25em;
+  margin-bottom: 0em;
   font-family: $sans-serif-narrow;
 
   a + a {
@@ -49,11 +49,14 @@
 }
 
 .archive__item-abstract {
-  font-size: 2;
+  font-size: 0.85em !important;
 }
 
 .archive__item-authors {
-  font-size: 1000000;
+  font-style: italic;
+  font-weight: normal;
+  margin-top: 0em;
+  margin-bottom: 0em !important;
 }
 
 /* remove border*/
@@ -61,6 +64,7 @@
 
   .archive__item-title {
     margin-top: 1em;
+    margin-bottom: none;
     border-bottom: none;
   }
 }
